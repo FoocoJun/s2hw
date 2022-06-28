@@ -1,0 +1,36 @@
+<head>
+<title>asd</title>
+<script>
+    function canAlert() {
+        alert("제출 완료!");
+        
+    }
+</script>
+</head>
+<body>
+    <form onsubmit='canAlert()'>
+        "First name : "<br>
+        <input name="name" required /><br>
+        "Last name : "<br>
+        <input name="name" required /><br>
+        "Email : "<br>
+        <input type="text" required /><br>
+        "Gender : "
+        <input type="radio" name="Gender">Male
+        <input type="radio" name="Gender">Female<br>
+        "Favorite : "
+        <input type="checkbox" name="Gender">HTML
+        <input type="checkbox" name="Gender">JAVA
+        <input type="checkbox" name="Gender">JavaScript<br>
+        "Browser : "
+        <select name="" id="Browser">
+            <option value="크롬">크롬</option>
+            <option value="사파리">사파리</option>
+            <option value="엣지">엣지</option>
+        </select><br>
+        "Birthday : "
+        <input type="date" name="Birthday">
+        <br>
+        <button type="submit">제출</button>
+    </form>
+</body>
